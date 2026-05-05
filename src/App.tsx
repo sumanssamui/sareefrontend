@@ -23,6 +23,7 @@ import ContactUs from "./pages/contact";
 import ReturnPolicy from "./pages/return";
 import TermsAndConditions from "./pages/terms_conditions";
 import Register from "./pages/Register";
+import Services from "./pages/Services";
 
 function App() {
   return (
@@ -61,10 +62,11 @@ function App() {
             <Route path="/profile-track" element={<Profile />} />
             <Route path="/help" element={<Help />} />
             <Route path="/wishlist" element={<Wishlist />} />
-            <Route path="/shipping" element={<ShippingInfo />} />
-            <Route path="/contact" element={<ContactUs />} />
-            <Route path="/return-policy" element={<ReturnPolicy />} />
-            <Route path="/terms" element={<TermsAndConditions />} />
+              <Route path="/shipping" element={<ShippingInfo />} />
+              <Route path="/contact" element={<ContactUs />} />
+              <Route path="/return-policy" element={<ReturnPolicy />} />
+              <Route path="/terms" element={<TermsAndConditions />} />
+            <Route path="/services" element={<Services />} />
           </Routes>
         </main>
         <Footer />
